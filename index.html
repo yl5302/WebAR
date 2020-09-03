@@ -19,9 +19,11 @@
 
 	<!-- 💁 OPTIONAL: Fullscreen polyfill is needed to fully support AR features -->
 	<script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>
+		
+		<script src="https://dky5neca2x8co.cloudfront.net/model-viewer-public/timeme.js"></script>
 
 	<!-- Import the component -->
-	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+	<script type="module" src="https://dky5neca2x8co.cloudfront.net/model-viewer-public/model-viewer.js"></script>
 	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 	<script>
 
@@ -50,25 +52,11 @@
 	</head>
 	<body>
 	<div class="card">
-	<model-viewer
-		ar
-		alt="test"
-		src="1921-21832.glb"
-  	ios-src="1921-21832.usdz"
-		background-color="#F4F4F4"
-		environment-image="env/BLUR.hdr"
-		stage-light-intensity="1"
-		exposure="1"
-		camera-controls
-		interaction-prompt="auto"
-		      >
-	</model-viewer>
-	</div>
- 
+	
 	<div class="card">
 	<model-viewer
 		ar
-		alt="test"
+		alt="ryft-helmet"
 		src="ryft.glb"
   	ios-src="ryft.usdz"
 		background-color="#F4F4F4"
@@ -81,85 +69,7 @@
 	</model-viewer>
 	</div>
 		
-		<div class="card">
-	<model-viewer
-		ar
-		alt="test"
-		src="2510-21925.glb"
-  	ios-src="2510-21925.usdz"
-		background-color="#F4F4F4"
-		environment-image="env/BLUR.hdr"
-		stage-light-intensity="1"
-		exposure="1"
-		camera-controls
-		interaction-prompt="auto"
-		      >
-	</model-viewer>
-	</div>
-		
-		<div class="card">
-	<model-viewer
-		ar
-		alt="test"
-		src="2508-21923.glb"
-  	ios-src="2508-21923.usdz"
-		background-color="#F4F4F4"
-		environment-image="env/BLUR.hdr"
-		stage-light-intensity="1"
-		exposure="1"
-		camera-controls
-		interaction-prompt="auto"
-		      >
-	</model-viewer>
-	</div>
-		
-		<div class="card">
-	<model-viewer
-		ar
-		alt="test"
-		src="2211-12634.glb"
-  	ios-src="2211-12634.usdz"
-		background-color="#F4F4F4"
-		environment-image="env/BLUR.hdr"
-		stage-light-intensity="1"
-		exposure="1"
-		camera-controls
-		interaction-prompt="auto"
-		      >
-	</model-viewer>
-	</div>
-		
-		<div class="card">
-	<model-viewer
-		ar
-		alt="test"
-		src="2210-126333.glb"
-  	ios-src="2210-12633.usdz"
-		background-color="#F4F4F4"
-		environment-image="env/BLUR.hdr"
-		stage-light-intensity="1"
-		exposure="1"
-		camera-controls
-		interaction-prompt="auto"
-		      >
-	</model-viewer>
-	</div>
-		
-		<div class="card">
-	<model-viewer
-		ar
-		alt="test"
-		src="2509-21924.glb"
-  	ios-src="2509-21924.usdz"
-		background-color="#F4F4F4"
-		environment-image="env/BLUR.hdr"
-		stage-light-intensity="1"
-		exposure="1"
-		camera-controls
-		interaction-prompt="auto"
-		      >
-	</model-viewer>
-	</div>
+	
 	<!--
 	<div class="card">
 	<model-viewer
