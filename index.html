@@ -27,30 +27,7 @@
 	<!-- Import the component -->
 	<script type="module" src="https://dky5neca2x8co.cloudfront.net/model-viewer-public/model-viewer.js"></script>
 	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-	<script>
-
-		// action to perform when the user clicks the custom button
-		function doThis(){
-			window.open("https://www.barringtongifts.com/catalog/product/view/id/3593/s/bb726-265-1525850283/",'_blank');
-		}
-
-
-		// handle ios part
-		document.addEventListener("DOMContentLoaded", function(){
-			const linkElement = document.getElementById('mv').shadowRoot;
-			console.log(linkElement);
-
-			// linkElement.getElementById('ar-button').addEventListener("message", function (event) {
-			linkElement.getElementById('default-ar-button').addEventListener("message", function (event) {
-				if (event.data == "_apple_ar_quicklook_button_tapped") {
-						// handle the user tap.
-						doThis();
-				}
-			}, false);
-		});
-
-
-	</script>
+	
 	</head>
 	<body>
 	<div class="card">
